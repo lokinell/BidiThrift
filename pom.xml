@@ -6,25 +6,30 @@
   <version>0.9</version>
   <description>A demonstration of bi-directional async messages with Thrift.</description>
   <packaging>pom</packaging>
-  
+
   <properties>
     <thrift.executable>/usr/local/bin/thrift</thrift.executable>
   </properties>
-  
+
   <modules>
     <module>Common</module>
     <module>Client</module>
     <module>Server</module>
   </modules>
-  
+
   <dependencies>
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.13</version>
     </dependency>
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.7</version>
+    </dependency>
   </dependencies>
-  
+
   <build>
     <plugins>
       <plugin>

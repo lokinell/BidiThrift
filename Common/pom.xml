@@ -10,15 +10,15 @@
   <name>BidiMessages Common</name>
   <version>0.9</version>
   <description>Common code for bi-directional thrift example.</description>
-  
+
   <dependencies>
     <dependency>
        <groupId>org.apache.thrift</groupId>
        <artifactId>libthrift</artifactId>
-       <version>0.9.1</version>
+       <version>0.9.2</version>
     </dependency>
   </dependencies>
-  
+
   <profiles>
     <profile>
       <id>profile-buildthrift</id>
